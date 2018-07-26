@@ -43,7 +43,7 @@ WebUI.waitForElementVisible(findTestObject('Pages/TV Channels Page/heading_TV Ch
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/div_total_res_cells'), 10)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
 
 WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/res_count'), 'Text', 10)
 
@@ -73,7 +73,7 @@ WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Delete Restaura
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/div_total_res_cells'), 10)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
 
 WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/res_count'), 'Text', 10)
 

@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Tests/Log In Tests/TC001_Log in_valid_user'), [
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/res_cell'), 'data', 30)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/btn_plus_restaurant'))
 
@@ -109,9 +109,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForPageLoad(10)
-
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/div_total_res_cells'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
 
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/restaurant_name'), 5)
 
