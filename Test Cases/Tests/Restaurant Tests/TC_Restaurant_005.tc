@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the message on edit Restaurant</description>
+   <name>TC_Restaurant_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ade89795-3809-42c8-824c-04f236a6f7b8</testCaseGuid>
+</TestCaseEntity>

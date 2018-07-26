@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the message on Delete Restaurant details</description>
+   <name>TC_Restaurant_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>affd26db-1402-491c-bcd4-35b7287de917</testCaseGuid>
+</TestCaseEntity>

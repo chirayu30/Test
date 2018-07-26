@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the information added while adding a restaurant are getting saved.</description>
+   <name>TC_Restaurant_015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0947f20-5992-42c9-a8d6-c19874e6c23f</testCaseGuid>
+</TestCaseEntity>

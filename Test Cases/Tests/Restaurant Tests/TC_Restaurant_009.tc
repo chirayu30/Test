@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Edit Restaurant screen opens on single click</description>
+   <name>TC_Restaurant_009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>495301d8-ac84-499a-a116-1e78464b3064</testCaseGuid>
+</TestCaseEntity>

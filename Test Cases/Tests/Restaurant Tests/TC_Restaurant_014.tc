@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Bydefault status in all radiobuttons in add Restaurant screen</description>
+   <name>TC_Restaurant_014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01b65045-da6f-4f3d-8476-5ea1a5e16544</testCaseGuid>
+</TestCaseEntity>

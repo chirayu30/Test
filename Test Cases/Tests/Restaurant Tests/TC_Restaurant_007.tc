@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check tooltip on mouse hover in Restaurant name in home screen.</description>
+   <name>TC_Restaurant_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a505ccce-1417-44b3-a406-82bf3d2a1b54</testCaseGuid>
+</TestCaseEntity>

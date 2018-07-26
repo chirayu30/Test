@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the fields available in Restaurants module</description>
+   <name>TC_Restaurant_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d2d3ba0-bbbc-493e-9ba9-c9b1c0e8b0fd</testCaseGuid>
+</TestCaseEntity>

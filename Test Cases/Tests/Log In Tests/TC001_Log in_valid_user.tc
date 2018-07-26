@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tyinh to log in with valid user credentials</description>
+   <name>TC001_Log in_valid_user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff095b1f-6aee-4c96-a3ad-816958a72fb8</testCaseGuid>
+</TestCaseEntity>
