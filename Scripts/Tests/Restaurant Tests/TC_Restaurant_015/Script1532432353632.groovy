@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display
 
 WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/textarea_description'), 'This is a test restaurant being added by automation script.')
 
-WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), 'C:\\Users\\Arpit Jain\\Katalon Studio\\DigiValet_CMS_Tests\\Images\\Restaurant Image.jpg')
+WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), 'C:\\Users\\Arpit Jain\\git\\pbsl_digivalet_cms_tests\\Images\\Restaurant Image.jpg')
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 5)
 
@@ -83,7 +83,7 @@ WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_text_ti
 
 WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_text_value_default'), 'Menu')
 
-WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/upload_file_add_menu'), 'C:\\Users\\Arpit Jain\\Katalon Studio\\DigiValet_CMS_Tests\\Resources\\Res_menu_PDF.pdf')
+WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/upload_file_add_menu'), 'C:\\Users\\Arpit Jain\\git\\pbsl_digivalet_cms_tests\\Resources\\Res_menu_PDF.pdf')
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_add_restaurant_detail'))
 
@@ -105,7 +105,7 @@ WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_text_re
 
 WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_text_res_details_value2'), 'Restaurant Introduction')
 
-WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/upload_file_add_video'), 'C:\\Users\\Arpit Jain\\Katalon Studio\\DigiValet_CMS_Tests\\Resources\\Res_video.flv')
+WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/upload_file_add_video'), 'C:\\Users\\Arpit Jain\\git\\pbsl_digivalet_cms_tests\\Resources\\Res_video.flv')
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_add_restaurant_detail'))
 
@@ -178,4 +178,118 @@ WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restau
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/test1_restaurant_cell'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 10)
+
+def resName = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 'value')
+
+WebUI.verifyEqual(resName, 'Automation Test3', FailureHandling.STOP_ON_FAILURE)
+
+def resDesc = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_desc_box'), 'value')
+
+WebUI.verifyEqual(resDesc, 'This is a test restaurant being added by automation script.', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementChecked(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_reservation_allowed_no'), 5)
+
+WebUI.verifyElementChecked(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_set-available_time'), 5)
+
+def startTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time'), 
+    'value')
+
+def endTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time'), 'value')
+
+WebUI.verifyEqual(startTime, '9:00 AM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(endTime, '11:00 PM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementChecked(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit-smoking_checkbox_yes'), 5)
+
+def resLocation = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_location'), 'value')
+
+WebUI.verifyEqual(resLocation, 'Top Floor', FailureHandling.STOP_ON_FAILURE)
+
+def resDetailsTitle1 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title1'), 
+    'value')
+
+def resDetailsValue1 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value1'), 
+    'value')
+
+WebUI.verifyEqual(resDetailsTitle1, 'Menu', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(resDetailsValue1, 'Menu', FailureHandling.STOP_ON_FAILURE)
+
+def resDetailsTitle2 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title2'), 
+    'value')
+
+def resDetailsValue2 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value2'), 
+    'value')
+
+WebUI.verifyEqual(resDetailsTitle2, 'Dress Code', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(resDetailsValue2, 'Western Attire', FailureHandling.STOP_ON_FAILURE)
+
+def resDetailsTitle3 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title3'), 
+    'value')
+
+def resDetailsValue3 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value3'), 
+    'value')
+
+WebUI.verifyEqual(resDetailsTitle3, 'Restaurant Video', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(resDetailsValue3, 'Restaurant Introduction', FailureHandling.STOP_ON_FAILURE)
+
+def resDetailsTitle4 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title4'), 
+    'value')
+
+def resDetailsValue4 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value4'), 
+    'value')
+
+def resDetailsUrl = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_url'), 'value')
+
+WebUI.verifyEqual(resDetailsTitle4, 'Order Online', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(resDetailsValue4, 'Order Portal', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(resDetailsUrl, 'https://test.com', FailureHandling.STOP_ON_FAILURE)
+
+def resDetailsTitle5 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title5'), 
+    'value')
+
+def resDetailsValue5 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value5'), 
+    'value')
+
+WebUI.verifyEqual(resDetailsTitle5, 'Custom Title', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(resDetailsValue5, 'Custom Value', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_next_step1'))
+
+def resFiltersOpenStatus = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_filters_openstatus'), 
+    'title')
+
+WebUI.verifyEqual(resFiltersOpenStatus, 'All Time', FailureHandling.STOP_ON_FAILURE)
+
+def resFiltersCuisine = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_filters_cuisine'), 
+    'title')
+
+WebUI.verifyEqual(resFiltersCuisine, 'All', FailureHandling.STOP_ON_FAILURE)
+
+def resFiltersMealType = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_filters_meal_type'), 
+    'title')
+
+WebUI.verifyEqual(resFiltersMealType, 'Breakfast', FailureHandling.STOP_ON_FAILURE)
+
+def mealTypeStartTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_filters_meal_type_start_time'), 
+    'value')
+
+def mealTypeEndTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_filters_meal_type_end_time'), 
+    'value')
+
+WebUI.verifyEqual(mealTypeStartTime, '9:00 AM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(mealTypeEndTime, '11:00 AM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 
