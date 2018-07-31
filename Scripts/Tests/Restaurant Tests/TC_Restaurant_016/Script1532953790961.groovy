@@ -23,11 +23,11 @@ WebUI.callTestCase(findTestCase('Tests/Log In Tests/TC001_Log in_valid_user'), [
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/btn_plus_restaurant'))
 
-WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display_name'), 'Automation Test3')
+WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display_name'), 'Automation Test4')
 
 WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/textarea_description'), 'This is a test restaurant being added by automation script.')
 
@@ -47,7 +47,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_crop_image_done'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 5)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/radio_reservation_allowed_no'))
 
@@ -175,123 +175,51 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_AM_PM'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_save'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restaurant_success'), 10)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restaurant_success'), 40, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
 
-WebUI.click(findTestObject('Pages/Restaurant Page/test1_restaurant_cell'))
+WebUI.click(findTestObject('Pages/Restaurant Page/test2_restaurant_cell'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 10)
+WebUI.delay(2)
 
-def resName = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 'value')
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_delete_menu5'))
 
-WebUI.verifyEqual(resName, 'Automation Test3', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_delete_menu4'))
 
-def resDesc = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_desc_box'), 'value')
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_delete_menu3'))
 
-WebUI.verifyEqual(resDesc, 'This is a test restaurant being added by automation script.', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementChecked(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_reservation_allowed_no'), 5)
-
-WebUI.verifyElementChecked(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_set-available_time'), 5)
-
-def startTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time'), 
-    'value')
-
-def endTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time'), 'value')
-
-WebUI.verifyEqual(startTime, '9:00 AM', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(endTime, '11:00 PM', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementChecked(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit-smoking_checkbox_yes'), 5)
-
-def resLocation = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_location'), 'value')
-
-WebUI.verifyEqual(resLocation, 'Top Floor', FailureHandling.STOP_ON_FAILURE)
-
-def resDetailsTitle1 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title1'), 
-    'value')
-
-def resDetailsValue1 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value1'), 
-    'value')
-
-WebUI.verifyEqual(resDetailsTitle1, 'Menu', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(resDetailsValue1, 'Menu', FailureHandling.STOP_ON_FAILURE)
-
-def resDetailsTitle2 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title2'), 
-    'value')
-
-def resDetailsValue2 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value2'), 
-    'value')
-
-WebUI.verifyEqual(resDetailsTitle2, 'Dress Code', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(resDetailsValue2, 'Western Attire', FailureHandling.STOP_ON_FAILURE)
-
-def resDetailsTitle3 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title3'), 
-    'value')
-
-def resDetailsValue3 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value3'), 
-    'value')
-
-WebUI.verifyEqual(resDetailsTitle3, 'Restaurant Video', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(resDetailsValue3, 'Restaurant Introduction', FailureHandling.STOP_ON_FAILURE)
-
-def resDetailsTitle4 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title4'), 
-    'value')
-
-def resDetailsValue4 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value4'), 
-    'value')
-
-def resDetailsUrl = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_url'), 'value')
-
-WebUI.verifyEqual(resDetailsTitle4, 'Order Online', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(resDetailsValue4, 'Order Portal', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(resDetailsUrl, 'https://test.com', FailureHandling.STOP_ON_FAILURE)
-
-def resDetailsTitle5 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title5'), 
-    'value')
-
-def resDetailsValue5 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value5'), 
-    'value')
-
-WebUI.verifyEqual(resDetailsTitle5, 'Custom Title', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyEqual(resDetailsValue5, 'Custom Value', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_delete_menu2'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_next_step1'))
 
-def resFiltersOpenStatus = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_filters_openstatus'), 
-    'title')
+WebUI.delay(2)
 
-WebUI.verifyEqual(resFiltersOpenStatus, 'All Time', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_save_step2'))
 
-def resFiltersCuisine = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_filters_cuisine'), 
-    'title')
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/msg_update_restaurant_success'), 10)
 
-WebUI.verifyEqual(resFiltersCuisine, 'All', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pages/Restaurant Page/test2_restaurant_cell'))
 
-def resFiltersMealType = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_filters_meal_type'), 
-    'title')
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title2'), 5)
 
-WebUI.verifyEqual(resFiltersMealType, 'Breakfast', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value2'), 5)
 
-def mealTypeStartTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_filters_meal_type_start_time'), 
-    'value')
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title3'), 5)
 
-def mealTypeEndTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_filters_meal_type_end_time'), 
-    'value')
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value3'), 5)
 
-WebUI.verifyEqual(mealTypeStartTime, '9:00 AM', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title4'), 5)
 
-WebUI.verifyEqual(mealTypeEndTime, '11:00 AM', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value4'), 5)
+
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res_details_title5'), 5)
+
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_res-details_value5'), 5)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_dismiss_modal_step1'))
 
 WebUI.closeBrowser()
 

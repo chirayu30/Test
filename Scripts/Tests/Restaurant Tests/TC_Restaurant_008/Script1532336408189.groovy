@@ -27,7 +27,7 @@ WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first
 
 WebUI.click(findTestObject('Pages/Restaurant Page/btn_plus_restaurant'))
 
-WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), 'C:\\Users\\Arpit Jain\\Katalon Studio\\DigiValet_CMS_Tests\\Images\\Restaurant Image.jpg')
+WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), '/Users/apple/git/pbsl_digivalet_cms_tests/Images/Restaurant Image.jpg')
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 5)
 
@@ -35,7 +35,11 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_out'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_crop_image_done'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_displayname_step1'), 'Display Name')
 
@@ -65,6 +69,8 @@ WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_next'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_apply_filters'), 3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_open_status_step2'), 'Open status')
 
 WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_cuisine_step2'), 'Cuisine')
@@ -72,4 +78,6 @@ WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/tex
 WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_meal_type_step2'), 'Meal Type')
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_dismiss_modal_step2'))
+
+WebUI.closeBrowser()
 

@@ -33,9 +33,9 @@ WebUI.click(findTestObject('Pages/Log In Page/button_Login'))
 
 WebUI.waitForPageLoad(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementNotPresent(findTestObject('Pages/Log In Page/button_Login'), 20)
+WebUI.waitForElementNotPresent(findTestObject('Pages/Log In Page/button_Login'), 20 , FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Pages/TV Channels Page/heading_TV Channel'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/TV Channels Page/heading_TV Channel'), 20 , FailureHandling.STOP_ON_FAILURE)
 
 DashboardURL = WebUI.getUrl()
 

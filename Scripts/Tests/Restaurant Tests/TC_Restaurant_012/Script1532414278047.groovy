@@ -37,15 +37,15 @@ WebUI.click(findTestObject('Pages/Log In Page/button_Login'))
 
 WebUI.waitForPageLoad(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementNotPresent(findTestObject('Pages/Log In Page/button_Login'), 20)
+WebUI.waitForElementNotPresent(findTestObject('Pages/Log In Page/button_Login'), 20, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Pages/TV Channels Page/heading_TV Channel'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/TV Channels Page/heading_TV Channel'), 20, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/res_count'), 'Text', 10)
+WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/res_count'), 'Text', 10, FailureHandling.STOP_ON_FAILURE)
 
 def countText = WebUI.getText(findTestObject('Pages/Restaurant Page/res_count'))
 
@@ -73,9 +73,9 @@ WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Delete Restaura
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/res_count'), 'Text', 10)
+WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/res_count'), 'Text', 10, FailureHandling.STOP_ON_FAILURE)
 
 def countText2 = WebUI.getText(findTestObject('Pages/Restaurant Page/res_count'))
 

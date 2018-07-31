@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Tests/Log In Tests/TC001_Log in_valid_user'), [
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest'))
 
@@ -38,4 +38,6 @@ WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 5)
 
 WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/test_restaurant_cell'), 0)
+
+WebUI.closeBrowser()
 

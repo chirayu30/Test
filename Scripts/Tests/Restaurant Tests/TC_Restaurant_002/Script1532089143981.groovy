@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Tests/Log In Tests/TC001_Log in_valid_user'), [
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/btn_plus_restaurant'))
 
@@ -33,17 +33,19 @@ WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/
 
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), 3)
 
-WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), 'C:\\Users\\Arpit Jain\\Katalon Studio\\DigiValet_CMS_Tests\\Images\\Restaurant Image.jpg')
+WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), '/Users/apple/git/pbsl_digivalet_cms_tests/Images/Restaurant Image.jpg')
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 5)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_out'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_crop_image_done'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 5)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/text_restaurant_allowed'), 3)
 
@@ -74,4 +76,6 @@ WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Apply Filters/i
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Apply Filters/input_cuisine'), 3)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_dismiss_modal_step2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

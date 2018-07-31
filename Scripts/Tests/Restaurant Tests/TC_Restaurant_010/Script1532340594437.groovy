@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Tests/Log In Tests/TC001_Log in_valid_user'), [
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20 , FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/add_res_cell'))
 
@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display
 
 WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/textarea_description'), 'This is a test restaurant being added by automation script.')
 
-WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), 'C:\\Users\\Arpit Jain\\Katalon Studio\\DigiValet_CMS_Tests\\Images\\Restaurant Image.jpg')
+WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), '/Users/apple/git/pbsl_digivalet_cms_tests/Images/Restaurant Image.jpg')
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 5)
 
@@ -43,9 +43,11 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_out'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_out'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_crop_image_done'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 5)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 5 , FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/checkbox_smoking_no'))
 
@@ -61,7 +63,7 @@ WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_text_va
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_next'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Apply Filters/heading_apply_filters'), 5)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Apply Filters/heading_apply_filters'), 5 , FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_status'))
 
@@ -105,7 +107,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20 , FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/restaurant_name1'), 5)
+
+WebUI.closeBrowser()
 
