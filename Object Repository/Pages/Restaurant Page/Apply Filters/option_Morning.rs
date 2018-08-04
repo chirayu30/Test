@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_allTime</name>
+   <name>option_Morning</name>
    <tag></tag>
-   <elementGuidId>361c814c-6a5b-47b8-9bde-6a766ce2fb3d</elementGuidId>
+   <elementGuidId>893431f7-ac08-41c7-b9e8-9de10a859205</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[text()='All Time']</value>
+         <value>//li[text()='Morning']</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check multiple dropdown value selection  in Apply Filters screen</description>
+   <name>TC_Restaurant_018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff82c760-5416-4d64-9e12-34ac2f4fe82d</testCaseGuid>
+</TestCaseEntity>

@@ -141,13 +141,33 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_statu
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_allTime'))
 
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_status'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_Morning'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_status'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_after_noon'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_cuisine'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_north_indian'))
+
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_cuisine'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_all'))
 
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_cuisine'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_italian'))
+
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_meal_type'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_breakfast'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_meal_type_enter'))
+
+WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Apply Filters/message_error_only_select_1'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/meal_type_start_time'))
 
