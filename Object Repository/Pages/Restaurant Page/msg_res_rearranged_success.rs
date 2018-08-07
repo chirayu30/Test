@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_res_rearranged_success</name>
+   <tag></tag>
+   <elementGuidId>9b53c81d-781c-4790-8d4d-0a488e925486</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Restaurants rearranged successfully.' or . = 'Restaurants rearranged successfully.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-pnotify-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-role</name>
+      <type>Main</type>
+      <value>alert</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Restaurants rearranged successfully.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;body_Class  navbar-top analytics_module&quot;]/div[@class=&quot;ui-pnotify bg-success ui-pnotify-fade-normal ui-pnotify-mobile-able ui-pnotify-move ui-pnotify-in ui-pnotify-fade-in&quot;]/div[@class=&quot;brighttheme ui-pnotify-container brighttheme-notice ui-pnotify-shadow&quot;]/div[@class=&quot;ui-pnotify-text&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

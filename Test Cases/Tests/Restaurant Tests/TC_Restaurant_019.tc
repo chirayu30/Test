@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Sequence rearrange for Restaurant in Home screen</description>
+   <name>TC_Restaurant_019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43c71318-18af-4d10-baa5-08532b98a1c3</testCaseGuid>
+</TestCaseEntity>

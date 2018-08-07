@@ -143,11 +143,25 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_allTime')
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_status'))
 
-WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_Morning'))
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_openstatus_morning'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_status'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_after_noon'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_status'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_evening'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_open_status'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_after1hour'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_openstatus_cancel_first_option'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_openstatus_cancel_second_option'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/option_allTime'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/input_cuisine'))
 
@@ -195,7 +209,7 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_AM_PM'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_save'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restaurant_success'), 10)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restaurant_success'), 30)
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
@@ -203,7 +217,8 @@ WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first
 
 WebUI.click(findTestObject('Pages/Restaurant Page/test1_restaurant_cell'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 10)
+WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 'value', 
+    10)
 
 def resName = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 'value')
 
@@ -312,6 +327,14 @@ def mealTypeEndTime = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/E
 WebUI.verifyEqual(mealTypeStartTime, '9:00 AM', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyEqual(mealTypeEndTime, '11:00 AM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_dismiss_modal_step2'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest3'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/btn_delete_res3_3_dot_menu'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15)
 
 WebUI.closeBrowser()
 
