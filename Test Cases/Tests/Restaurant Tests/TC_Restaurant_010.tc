@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Add new Restaurant  using '+ Add Restaurant' button</description>
-   <name>TC_Restaurant_010</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fa1c612f-e4f8-4f5a-86ec-5d2d78e53a08</testCaseGuid>
-</TestCaseEntity>

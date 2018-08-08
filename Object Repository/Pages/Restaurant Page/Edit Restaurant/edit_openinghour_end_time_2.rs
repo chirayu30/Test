@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>test1_restaurant_cell</name>
+   <name>edit_openinghour_end_time_2</name>
    <tag></tag>
-   <elementGuidId>317d2342-046d-41be-9a4f-faa785f2f145</elementGuidId>
+   <elementGuidId>32d2ce67-2341-4be1-8b5d-6bf053ca000c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@data-catname='automation test edited']/div/div[1]</value>
+         <value>//div[@class='repeat-time-container edit_restaurant_availability_time col-lg-8 no-padding']/div[2]//input[@id='edit_end_time']</value>
       </entry>
       <entry>
          <key>BASIC</key>

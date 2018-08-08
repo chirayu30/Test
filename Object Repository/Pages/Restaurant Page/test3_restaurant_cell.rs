@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>test1_restaurant_cell</name>
+   <name>test3_restaurant_cell</name>
    <tag></tag>
-   <elementGuidId>317d2342-046d-41be-9a4f-faa785f2f145</elementGuidId>
+   <elementGuidId>81854604-db64-49dc-9b4b-b59ec21ac23a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@data-catname='automation test edited']/div/div[1]</value>
+         <value>//div[@data-catname='automation test3']/div/div[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

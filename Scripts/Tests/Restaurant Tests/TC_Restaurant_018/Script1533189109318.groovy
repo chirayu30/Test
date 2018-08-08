@@ -164,17 +164,20 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_save'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restaurant_success'), 30)
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
-WebUI.click(findTestObject('Pages/Restaurant Page/btn_plus_restaurant'))
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest3'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/btn_delete_res3_3_dot_menu'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/delete_res_confirmation_dialog'), 5)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_delete_res'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15, 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

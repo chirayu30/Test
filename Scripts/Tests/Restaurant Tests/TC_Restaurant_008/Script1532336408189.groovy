@@ -41,31 +41,31 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_crop_image_done
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Add Restaurant/heading_add_restaurant'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_displayname_step1'), 'Display Name')
+WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_displayname_step1'), 'Display Name', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_description_step1'), 'Description')
+WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_description_step1'), 'Description', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_image_step1'), 'Image*')
+WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_image_step1'), 'Image*', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_reservation_allowed_step1'), 'Reservation Allowed')
+WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_reservation_allowed_step1'), 'Reservation Allowed', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_opening_hours'), 'Opening hours')
+WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_opening_hours'), 'Opening hours', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_smoking'), 'Smoking')
+WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_smoking'), 'Smoking', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_location_step1'), 'Location')
+WebUI.verifyElementText(findTestObject('Pages/Restaurant Page/Add Restaurant/text_location_step1'), 'Location', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/dropdown_add_menu_default'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_menu'), 3)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_menu'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_dress_code'), 3)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_dress_code'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_URL'), 3)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_URL'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_video'), 3)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_video'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_custom'), 3)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/value_add_custom'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_next'), FailureHandling.STOP_ON_FAILURE)
 

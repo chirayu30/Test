@@ -111,9 +111,22 @@ WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/restaurant_name'), 10, FailureHandling.STOP_ON_FAILURE)
+
 def RestaurantName = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/restaurant_name'), 'title')
 
 WebUI.verifyMatch(RestaurantName, 'Automation Test', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest2'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/btn_delete_res2_3_dot_menu'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/delete_res_confirmation_dialog'), 5)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_delete_res'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15,
+	FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

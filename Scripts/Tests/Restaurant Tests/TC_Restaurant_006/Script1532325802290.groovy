@@ -37,7 +37,7 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/test_restaurant_cell'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Pages/Restaurant Page/test1_restaurant_cell'), 0)
 
 WebUI.closeBrowser()
 

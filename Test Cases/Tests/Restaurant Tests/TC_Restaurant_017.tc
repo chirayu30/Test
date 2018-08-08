@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Check error message when any dropdown fields are save empty</description>
    <name>TC_Restaurant_017</name>
    <tag></tag>
    <comment></comment>

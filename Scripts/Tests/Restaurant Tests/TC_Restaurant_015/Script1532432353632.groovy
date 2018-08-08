@@ -215,7 +215,7 @@ WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
 
-WebUI.click(findTestObject('Pages/Restaurant Page/test1_restaurant_cell'))
+WebUI.click(findTestObject('Pages/Restaurant Page/test3_restaurant_cell'))
 
 WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 'value', 
     10)
@@ -330,11 +330,18 @@ WebUI.verifyEqual(mealTypeEndTime, '11:00 AM', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_dismiss_modal_step2'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest3'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/btn_delete_res3_3_dot_menu'))
 
-WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15)
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/delete_res_confirmation_dialog'), 5)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_delete_res'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15, 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

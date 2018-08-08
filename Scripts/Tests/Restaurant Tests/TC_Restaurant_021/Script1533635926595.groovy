@@ -27,7 +27,7 @@ WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first
 
 WebUI.click(findTestObject('Pages/Restaurant Page/btn_plus_restaurant'))
 
-WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display_name'), 'Automation Test3')
+WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display_name'), 'A~!@#$%^&*()+-=[]{}|;:,./<>?')
 
 WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/textarea_description'), 'This is a test restaurant being added by automation script.')
 
@@ -79,4 +79,112 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/minute_00'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_AM_PM'))
 
+WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_opening_hour_add_time'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/opening_hours_start_time_2'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_hours'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/hour_02'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_minutes'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/minute_00'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/opening_hours_end_time_2'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_hours'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/hour_08'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_minutes'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/minute_00'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_opening_hour_add_time'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/opening_hours_start_time_3'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_hours'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/hour_09'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_minutes'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/minute_00'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/opening_hours_end_time_3'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_hours'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/hour_11'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_minutes'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/minute_00'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_next'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_save'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restaurant_success'), 30)
+
+WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/test4_restaurant_cell'))
+
+WebUI.waitForElementHasAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 'value', 
+    10)
+
+def resName = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 'value')
+
+WebUI.verifyEqual(resName, 'A~!@#$%^&*()+-=[]{}|;:,./<>?', FailureHandling.STOP_ON_FAILURE)
+
+def startTime1 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time_1'), 
+    'value')
+
+def endTime1 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time_1'), 'value')
+
+WebUI.verifyEqual(startTime1, '9:00 AM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(endTime1, '11:00 AM', FailureHandling.STOP_ON_FAILURE)
+
+def startTime2 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time_2'), 
+    'value')
+
+def endTime2 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time_2'), 'value')
+
+WebUI.verifyEqual(startTime2, '2:00 PM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(endTime2, '8:00 PM', FailureHandling.STOP_ON_FAILURE)
+
+def startTime3 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time_3'), 
+    'value')
+
+def endTime3 = WebUI.getAttribute(findTestObject('Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time_3'), 'value')
+
+WebUI.verifyEqual(startTime3, '9:00 PM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(endTime3, '11:00 PM', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_dismiss_modal_step1'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest4'))
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/btn_delete_res4_3_dot_menu'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/delete_res_confirmation_dialog'), 5)
+
+WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_delete_res'))
+
+WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

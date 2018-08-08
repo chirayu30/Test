@@ -27,7 +27,7 @@ WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first
 
 WebUI.click(findTestObject('Pages/Restaurant Page/btn_plus_restaurant'))
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Edit Restaurant/input_edit_display_name'), 3)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display_name'), 3)
 
 WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Add Restaurant/textarea_description'), 3)
 
