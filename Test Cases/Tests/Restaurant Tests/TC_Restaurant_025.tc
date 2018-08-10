@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check search functionality based on Restaurant name</description>
+   <name>TC_Restaurant_025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>270c1bcb-5e93-4923-8974-696f418d00dd</testCaseGuid>
+</TestCaseEntity>

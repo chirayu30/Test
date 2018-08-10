@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check to Upload heavy size images and verify in ipad +
+Check to Update Restaurant image</description>
+   <name>TC_Restaurant_023</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd112db7-ce1d-4d71-bb26-a1f34cd4676f</testCaseGuid>
+</TestCaseEntity>

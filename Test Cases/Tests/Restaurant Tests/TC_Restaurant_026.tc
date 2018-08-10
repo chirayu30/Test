@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Cancel button functionality</description>
+   <name>TC_Restaurant_026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec26dbb6-04fe-40fd-b638-9e508f4b10d5</testCaseGuid>
+</TestCaseEntity>
