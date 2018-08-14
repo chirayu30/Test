@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the action when user selects &quot;Later&quot; in when to push option</description>
+   <name>TC_Restaurant_028</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9642c6c-04a9-474d-b150-c94adf208e66</testCaseGuid>
+</TestCaseEntity>

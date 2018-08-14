@@ -27,7 +27,7 @@ WebDriver driver = DriverFactory.openWebDriver()
 
 driver.get(GlobalVariable.URL)
 
-driver.manage().window().maximize()
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Pages/Log In Page/input_username'), findTestData('log_in_credentials').getValue(1, 1))
 
@@ -67,9 +67,7 @@ WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaura
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_delete_res'))
 
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 5)
+WebUI.waitForElementPresent(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15)
 
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 

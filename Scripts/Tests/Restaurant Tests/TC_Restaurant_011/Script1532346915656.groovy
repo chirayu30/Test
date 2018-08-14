@@ -27,7 +27,7 @@ WebDriver driver = DriverFactory.openWebDriver()
 
 driver.get(GlobalVariable.URL)
 
-driver.manage().window().maximize()
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Pages/Log In Page/input_username'), findTestData('log_in_credentials').getValue(1, 1))
 

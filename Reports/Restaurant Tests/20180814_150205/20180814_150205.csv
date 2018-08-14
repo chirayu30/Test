@@ -1,0 +1,892 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Restaurant Tests,Chrome 68.0.3440.106,,2018-08-14 15:02:18,2018-08-14 15:17:04,14m - 46.221s,FAILED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_001,Chrome 68.0.3440.106,Add Restaurant using '+' button at the top,2018-08-14 15:02:18,2018-08-14 15:02:47,28.848s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:02:19,2018-08-14 15:02:31,11.855s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:31,2018-08-14 15:02:32,1.415s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:32,2018-08-14 15:02:34,1.284s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:34,2018-08-14 15:02:34,0.246s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:02:34,2018-08-14 15:02:35,0.812s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:02:35,2018-08-14 15:02:35,0.623s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:02:35,2018-08-14 15:02:35,0.083s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:35,2018-08-14 15:02:35,0.059s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:35,2018-08-14 15:02:36,0.096s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:36,2018-08-14 15:02:36,0.074s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:36,2018-08-14 15:02:36,0.145s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:36,2018-08-14 15:02:36,0.097s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:36,2018-08-14 15:02:36,0.380s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:36,2018-08-14 15:02:37,0.588s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:37,2018-08-14 15:02:37,0.153s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:02:37,2018-08-14 15:02:38,0.491s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:38,2018-08-14 15:02:38,0.203s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:38,2018-08-14 15:02:38,0.211s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:02:38,2018-08-14 15:02:38,0.426s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:02:38,2018-08-14 15:02:39,0.306s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:39,2018-08-14 15:02:39,0.186s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:39,2018-08-14 15:02:39,0.607s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:39,2018-08-14 15:02:40,0.047s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:40,2018-08-14 15:02:40,0.194s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:40,2018-08-14 15:02:40,0.135s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:40,2018-08-14 15:02:40,0.123s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:40,2018-08-14 15:02:40,0.110s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:40,2018-08-14 15:02:40,0.132s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:40,2018-08-14 15:02:40,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:40,2018-08-14 15:02:41,0.304s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:41,2018-08-14 15:02:41,0.152s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:41,2018-08-14 15:02:41,0.133s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:41,2018-08-14 15:02:41,0.120s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:41,2018-08-14 15:02:41,0.126s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:41,2018-08-14 15:02:41,0.130s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:41,2018-08-14 15:02:42,0.211s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:42,2018-08-14 15:02:42,0.127s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:42,2018-08-14 15:02:42,0.148s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:42,2018-08-14 15:02:42,0.157s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:42,2018-08-14 15:02:42,0.158s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:42,2018-08-14 15:02:42,0.141s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:42,2018-08-14 15:02:42,0.200s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:42,2018-08-14 15:02:43,0.633s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:02:43,2018-08-14 15:02:44,1.017s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:44,2018-08-14 15:02:45,0.949s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:45,2018-08-14 15:02:47,2.117s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:02:47,2018-08-14 15:02:47,0.042s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:02:47,2018-08-14 15:02:47,0.116s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_002,Chrome 68.0.3440.106,Check the fields available in Restaurants module,2018-08-14 15:02:47,2018-08-14 15:03:05,17.611s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:02:48,2018-08-14 15:02:56,7.924s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:02:56,2018-08-14 15:02:58,2.825s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:02:58,2018-08-14 15:03:00,1.297s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:00,2018-08-14 15:03:00,0.374s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:00,2018-08-14 15:03:00,0.241s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:00,2018-08-14 15:03:00,0.062s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:00,2018-08-14 15:03:00,0.040s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:03:00,2018-08-14 15:03:00,0.110s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:03:00,2018-08-14 15:03:01,0.080s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:01,2018-08-14 15:03:01,0.135s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:01,2018-08-14 15:03:01,0.152s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:03:01,2018-08-14 15:03:03,2.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:03,2018-08-14 15:03:03,0.380s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:03:03,2018-08-14 15:03:04,0.617s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.023s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.023s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.023s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.028s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.176s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.045s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.041s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.040s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.033s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.029s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:04,0.168s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:04,2018-08-14 15:03:05,0.043s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:05,2018-08-14 15:03:05,0.039s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:05,2018-08-14 15:03:05,0.035s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:05,2018-08-14 15:03:05,0.186s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:03:05,2018-08-14 15:03:05,0.148s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_005,Chrome 68.0.3440.106,Check the message on edit Restaurant,2018-08-14 15:03:05,2018-08-14 15:03:55,50.469s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:03:05,2018-08-14 15:03:44,39.175s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:44,2018-08-14 15:03:50,5.614s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:03:50,2018-08-14 15:03:51,1.108s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:51,2018-08-14 15:03:51,0.233s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:03:51,2018-08-14 15:03:52,0.790s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:52,2018-08-14 15:03:52,0.120s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:03:52,2018-08-14 15:03:54,2.005s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:03:54,2018-08-14 15:03:54,0.093s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:03:54,2018-08-14 15:03:55,1.004s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:03:55,2018-08-14 15:03:55,0.026s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:03:55,2018-08-14 15:03:55,0.133s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_006,Chrome 68.0.3440.106,Check the message on Delete Restaurant details,2018-08-14 15:03:55,2018-08-14 15:04:09,13.700s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:03:56,2018-08-14 15:04:03,7.438s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:03,2018-08-14 15:04:05,2.268s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:05,2018-08-14 15:04:06,1.125s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:06,2018-08-14 15:04:07,0.154s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:07,2018-08-14 15:04:07,0.170s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:07,2018-08-14 15:04:07,0.057s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:07,2018-08-14 15:04:07,0.129s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:04:07,2018-08-14 15:04:09,2.003s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:04:09,2018-08-14 15:04:09,0.026s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:04:09,2018-08-14 15:04:09,0.053s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:04:09,2018-08-14 15:04:09,0.129s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_007,Chrome 68.0.3440.106,Check tooltip on mouse hover in Restaurant name in home screen.,2018-08-14 15:04:09,2018-08-14 15:05:02,53.234s,FAILED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:04:09,2018-08-14 15:04:17,8.111s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:17,2018-08-14 15:04:18,1.036s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:18,2018-08-14 15:04:20,1.104s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:20,2018-08-14 15:04:20,0.190s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:04:20,2018-08-14 15:04:20,0.651s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:04:20,2018-08-14 15:04:21,0.608s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:04:21,2018-08-14 15:04:21,0.068s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:21,2018-08-14 15:04:21,0.056s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:21,2018-08-14 15:04:21,0.095s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:21,2018-08-14 15:04:21,0.076s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:21,2018-08-14 15:04:21,0.115s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:21,2018-08-14 15:04:21,0.085s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:21,2018-08-14 15:04:22,0.353s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:22,2018-08-14 15:04:22,0.591s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:22,2018-08-14 15:04:23,0.104s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:04:23,2018-08-14 15:04:23,0.425s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:23,2018-08-14 15:04:23,0.161s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:23,2018-08-14 15:04:23,0.169s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:04:23,2018-08-14 15:04:24,0.351s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:04:24,2018-08-14 15:04:24,0.214s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:24,2018-08-14 15:04:24,0.114s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:24,2018-08-14 15:04:25,0.601s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:25,0.046s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:25,0.119s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:25,0.122s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:25,0.111s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:25,0.099s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:25,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:25,0.098s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:25,2018-08-14 15:04:26,0.233s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.125s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.107s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.108s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.107s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.122s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.170s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.115s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:26,0.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:26,2018-08-14 15:04:27,0.118s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:27,2018-08-14 15:04:27,0.113s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:27,2018-08-14 15:04:27,0.102s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:27,2018-08-14 15:04:27,0.137s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:27,2018-08-14 15:04:28,0.640s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:04:28,2018-08-14 15:04:29,1.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:29,2018-08-14 15:04:30,0.937s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:04:30,2018-08-14 15:04:31,1.090s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:04:31,2018-08-14 15:04:31,0.027s,PASSED
+"Statement - RestaurantName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/restaurant_name), ""title"")",Chrome 68.0.3440.106,,2018-08-14 15:04:31,2018-08-14 15:04:31,0.040s,PASSED
+verifyMatch,Chrome 68.0.3440.106,,2018-08-14 15:04:31,2018-08-14 15:04:31,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:04:31,2018-08-14 15:05:02,31.636s,FAILED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_008,Chrome 68.0.3440.106,Check the labels and dropdown values are correct without any spelling mistake,2018-08-14 15:05:02,2018-08-14 15:05:19,16.503s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:05:02,2018-08-14 15:05:11,8.650s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:11,2018-08-14 15:05:12,1.065s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:12,2018-08-14 15:05:13,1.130s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:13,2018-08-14 15:05:14,0.194s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:05:14,2018-08-14 15:05:14,0.281s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:14,2018-08-14 15:05:14,0.113s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:14,2018-08-14 15:05:14,0.140s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:14,2018-08-14 15:05:14,0.161s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:05:14,2018-08-14 15:05:16,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:16,2018-08-14 15:05:17,0.318s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.583s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.061s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.043s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.044s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.043s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.044s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.043s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:17,0.042s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:17,2018-08-14 15:05:18,0.136s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:18,0.047s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:18,0.039s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:18,0.032s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:18,0.023s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:18,0.030s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:18,0.137s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:18,0.582s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:18,2018-08-14 15:05:19,0.048s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:19,2018-08-14 15:05:19,0.044s,PASSED
+verifyElementText,Chrome 68.0.3440.106,,2018-08-14 15:05:19,2018-08-14 15:05:19,0.047s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:19,2018-08-14 15:05:19,0.101s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:05:19,2018-08-14 15:05:19,0.138s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_009,Chrome 68.0.3440.106,Check Edit Restaurant screen opens on single click,2018-08-14 15:05:19,2018-08-14 15:05:30,11.429s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:05:19,2018-08-14 15:05:27,8.391s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:27,2018-08-14 15:05:28,1.068s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:28,2018-08-14 15:05:30,1.144s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:30,2018-08-14 15:05:30,0.200s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:30,2018-08-14 15:05:30,0.389s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:05:30,2018-08-14 15:05:30,0.120s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_011,Chrome 68.0.3440.106,Check Restaurant count  in landing screen,2018-08-14 15:05:30,2018-08-14 15:06:23,52.784s,FAILED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(),Chrome 68.0.3440.106,,2018-08-14 15:05:30,2018-08-14 15:05:31,0.979s,PASSED
+Statement - driver.get(URL),Chrome 68.0.3440.106,,2018-08-14 15:05:31,2018-08-14 15:05:33,1.180s,PASSED
+Statement - driver.manage().window().maximize(),Chrome 68.0.3440.106,,2018-08-14 15:05:33,2018-08-14 15:05:33,0.254s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:05:33,2018-08-14 15:05:33,0.293s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:05:33,2018-08-14 15:05:33,0.202s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:33,2018-08-14 15:05:34,0.112s,PASSED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-08-14 15:05:34,2018-08-14 15:05:34,0.010s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:05:34,2018-08-14 15:05:39,5.420s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:39,2018-08-14 15:05:39,0.049s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:39,2018-08-14 15:05:40,1.116s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:05:40,2018-08-14 15:05:41,1.103s,PASSED
+waitForElementHasAttribute,Chrome 68.0.3440.106,,2018-08-14 15:05:41,2018-08-14 15:05:51,10.232s,PASSED
+Statement - countText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/res_count)),Chrome 68.0.3440.106,,2018-08-14 15:05:51,2018-08-14 15:05:51,0.056s,PASSED
+Statement - splitText = countText.split(),Chrome 68.0.3440.106,,2018-08-14 15:05:51,2018-08-14 15:05:51,0.001s,PASSED
+Statement - resCount = splitText[2],Chrome 68.0.3440.106,,2018-08-14 15:05:51,2018-08-14 15:05:51,0.004s,PASSED
+"Statement - allRes = driver.findElements(org.openqa.selenium.By.xpath(""//div[@id='sortable-category']/div[@class='col-lg-3 col-sm-6 col-md-5thumb single-category-box']""))",Chrome 68.0.3440.106,,2018-08-14 15:05:51,2018-08-14 15:05:52,0.050s,PASSED
+Statement - allResCount = allRes.size(),Chrome 68.0.3440.106,,2018-08-14 15:05:52,2018-08-14 15:05:52,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:05:52,2018-08-14 15:05:52,0.054s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:05:52,2018-08-14 15:06:23,31.461s,FAILED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_012,Chrome 68.0.3440.106,Verify that the count shown in the text is matches with the number of restaurant cells listed on the screen on deleting a restaurant.,2018-08-14 15:06:23,2018-08-14 15:07:35,1m - 11.602s,FAILED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(),Chrome 68.0.3440.106,,2018-08-14 15:06:23,2018-08-14 15:06:25,1.278s,PASSED
+Statement - driver.get(URL),Chrome 68.0.3440.106,,2018-08-14 15:06:25,2018-08-14 15:06:34,9.793s,PASSED
+Statement - driver.manage().window().maximize(),Chrome 68.0.3440.106,,2018-08-14 15:06:34,2018-08-14 15:06:35,0.212s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:06:35,2018-08-14 15:06:35,0.290s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:06:35,2018-08-14 15:06:35,0.255s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:06:35,2018-08-14 15:06:35,0.106s,PASSED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-08-14 15:06:35,2018-08-14 15:06:35,0.010s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:06:35,2018-08-14 15:06:44,9.176s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:06:44,2018-08-14 15:06:44,0.045s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:06:44,2018-08-14 15:06:51,6.319s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:06:51,2018-08-14 15:06:52,1.154s,PASSED
+waitForElementHasAttribute,Chrome 68.0.3440.106,,2018-08-14 15:06:52,2018-08-14 15:07:02,10.257s,PASSED
+Statement - countText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/res_count)),Chrome 68.0.3440.106,,2018-08-14 15:07:02,2018-08-14 15:07:02,0.073s,PASSED
+Statement - splitText = countText.split(),Chrome 68.0.3440.106,,2018-08-14 15:07:02,2018-08-14 15:07:02,0.000s,PASSED
+Statement - resCount = splitText[2],Chrome 68.0.3440.106,,2018-08-14 15:07:02,2018-08-14 15:07:02,0.000s,PASSED
+"Statement - allRes = driver.findElements(org.openqa.selenium.By.xpath(""//div[@id='sortable-category']/div[@class='col-lg-3 col-sm-6 col-md-5thumb single-category-box']""))",Chrome 68.0.3440.106,,2018-08-14 15:07:02,2018-08-14 15:07:02,0.024s,PASSED
+Statement - allResCount = allRes.size(),Chrome 68.0.3440.106,,2018-08-14 15:07:02,2018-08-14 15:07:02,0.000s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:07:02,2018-08-14 15:07:02,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:07:02,2018-08-14 15:07:35,32.427s,FAILED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_014,Chrome 68.0.3440.106,Check Bydefault status in all radiobuttons in add Restaurant screen,2018-08-14 15:07:35,2018-08-14 15:07:48,12.977s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:07:35,2018-08-14 15:07:43,8.666s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:07:43,2018-08-14 15:07:45,1.995s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:07:45,2018-08-14 15:07:47,1.201s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:07:47,2018-08-14 15:07:47,0.271s,PASSED
+verifyElementChecked,Chrome 68.0.3440.106,,2018-08-14 15:07:47,2018-08-14 15:07:47,0.293s,PASSED
+verifyElementNotChecked,Chrome 68.0.3440.106,,2018-08-14 15:07:47,2018-08-14 15:07:47,0.101s,PASSED
+verifyElementChecked,Chrome 68.0.3440.106,,2018-08-14 15:07:47,2018-08-14 15:07:47,0.048s,PASSED
+verifyElementNotChecked,Chrome 68.0.3440.106,,2018-08-14 15:07:47,2018-08-14 15:07:47,0.050s,PASSED
+verifyElementChecked,Chrome 68.0.3440.106,,2018-08-14 15:07:47,2018-08-14 15:07:47,0.050s,PASSED
+verifyElementNotChecked,Chrome 68.0.3440.106,,2018-08-14 15:07:47,2018-08-14 15:07:48,0.063s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:07:48,2018-08-14 15:07:48,0.107s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_015,Chrome 68.0.3440.106,Verify that the information added while adding a restaurant are getting saved.,2018-08-14 15:07:48,2018-08-14 15:08:57,1m - 9.226s,FAILED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:07:48,2018-08-14 15:07:57,8.905s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:07:57,2018-08-14 15:07:58,1.104s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:07:58,2018-08-14 15:07:59,1.175s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:07:59,2018-08-14 15:07:59,0.201s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:07:59,2018-08-14 15:08:00,0.659s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:00,2018-08-14 15:08:01,0.614s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:08:01,2018-08-14 15:08:01,0.068s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:01,2018-08-14 15:08:01,0.058s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:01,2018-08-14 15:08:01,0.092s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:01,2018-08-14 15:08:01,0.073s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:01,2018-08-14 15:08:01,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:01,2018-08-14 15:08:01,0.094s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:08:01,2018-08-14 15:08:03,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:03,2018-08-14 15:08:03,0.326s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:03,2018-08-14 15:08:04,0.581s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:04,2018-08-14 15:08:04,0.110s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:04,2018-08-14 15:08:04,0.137s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:04,2018-08-14 15:08:04,0.063s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:04,2018-08-14 15:08:05,0.256s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:05,2018-08-14 15:08:05,0.133s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:05,2018-08-14 15:08:05,0.130s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:05,2018-08-14 15:08:05,0.118s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:05,2018-08-14 15:08:05,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:05,2018-08-14 15:08:05,0.133s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:05,2018-08-14 15:08:05,0.170s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:05,2018-08-14 15:08:06,0.103s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:06,2018-08-14 15:08:06,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:06,2018-08-14 15:08:06,0.084s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:06,2018-08-14 15:08:06,0.117s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:06,2018-08-14 15:08:06,0.173s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:06,2018-08-14 15:08:06,0.299s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:06,2018-08-14 15:08:07,0.191s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:07,2018-08-14 15:08:07,0.186s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:08:07,2018-08-14 15:08:07,0.056s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:07,2018-08-14 15:08:07,0.157s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:07,2018-08-14 15:08:07,0.183s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:07,2018-08-14 15:08:07,0.165s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:07,2018-08-14 15:08:08,0.305s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:08,2018-08-14 15:08:08,0.376s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:08,2018-08-14 15:08:08,0.152s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:08,2018-08-14 15:08:08,0.167s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:08,2018-08-14 15:08:08,0.179s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:08,2018-08-14 15:08:09,0.622s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:09,2018-08-14 15:08:10,0.548s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:08:10,2018-08-14 15:08:10,0.054s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:10,2018-08-14 15:08:10,0.171s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:10,2018-08-14 15:08:10,0.188s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:10,2018-08-14 15:08:10,0.154s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:10,2018-08-14 15:08:11,0.403s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:11,2018-08-14 15:08:11,0.460s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:11,2018-08-14 15:08:12,0.471s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:12,2018-08-14 15:08:12,0.174s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:12,2018-08-14 15:08:12,0.155s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:12,2018-08-14 15:08:12,0.161s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:12,2018-08-14 15:08:12,0.416s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:08:12,2018-08-14 15:08:13,0.388s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:13,2018-08-14 15:08:13,0.153s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:13,2018-08-14 15:08:14,0.614s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.041s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.162s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.081s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.104s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.094s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.103s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.080s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:14,0.112s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:14,2018-08-14 15:08:15,0.091s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:15,0.124s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:15,0.145s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:15,0.158s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:15,0.110s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:15,0.112s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:15,0.102s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:15,0.090s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:15,2018-08-14 15:08:16,0.102s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.080s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.125s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.125s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.119s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.110s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.040s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.154s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.101s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:16,0.106s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:16,2018-08-14 15:08:17,0.110s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:17,0.111s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:17,0.117s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:17,0.189s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:17,0.097s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:17,0.117s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:17,0.099s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:17,0.113s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:17,2018-08-14 15:08:18,0.120s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:18,2018-08-14 15:08:18,0.159s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:18,2018-08-14 15:08:22,3.797s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:22,2018-08-14 15:08:23,1.047s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:08:23,2018-08-14 15:08:24,1.093s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:24,2018-08-14 15:08:24,0.213s,PASSED
+waitForElementHasAttribute,Chrome 68.0.3440.106,,2018-08-14 15:08:24,2018-08-14 15:08:24,0.523s,PASSED
+"Statement - resName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/input_edit_display_name), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:24,2018-08-14 15:08:24,0.067s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:24,2018-08-14 15:08:24,0.002s,PASSED
+"Statement - resDesc = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_desc_box), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:24,2018-08-14 15:08:24,0.038s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:24,2018-08-14 15:08:24,0.001s,PASSED
+verifyElementChecked,Chrome 68.0.3440.106,,2018-08-14 15:08:24,2018-08-14 15:08:25,0.041s,PASSED
+verifyElementChecked,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.038s,PASSED
+"Statement - startTime = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.034s,PASSED
+"Statement - endTime = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.046s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.000s,PASSED
+verifyElementChecked,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.037s,PASSED
+"Statement - resLocation = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_location), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.032s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+"Statement - resDetailsTitle1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res_details_title1), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.030s,PASSED
+"Statement - resDetailsValue1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res-details_value1), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.033s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.000s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+"Statement - resDetailsTitle2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res_details_title2), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.035s,PASSED
+"Statement - resDetailsValue2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res-details_value2), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.029s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+"Statement - resDetailsTitle3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res_details_title3), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.033s,PASSED
+"Statement - resDetailsValue3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res-details_value3), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.031s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+"Statement - resDetailsTitle4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res_details_title4), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.030s,PASSED
+"Statement - resDetailsValue4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res-details_value4), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.035s,PASSED
+"Statement - resDetailsUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_url), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.033s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.000s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+"Statement - resDetailsTitle5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res_details_title5), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.032s,PASSED
+"Statement - resDetailsValue5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_res-details_value5), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.030s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.128s,PASSED
+"Statement - resFiltersOpenStatus = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_filters_openstatus), ""title"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.063s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:25,0.001s,PASSED
+"Statement - resFiltersCuisine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_filters_cuisine), ""title"")",Chrome 68.0.3440.106,,2018-08-14 15:08:25,2018-08-14 15:08:57,31.596s,FAILED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_016,Chrome 68.0.3440.106,Check to delete different dropdown details,2018-08-14 15:08:57,2018-08-14 15:10:23,1m - 26.008s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:08:57,2018-08-14 15:09:45,48.112s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:45,2018-08-14 15:09:52,7.105s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:09:52,2018-08-14 15:09:53,1.213s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:53,2018-08-14 15:09:54,0.258s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:09:54,2018-08-14 15:09:54,0.645s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:09:54,2018-08-14 15:09:55,0.721s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:09:55,2018-08-14 15:09:55,0.085s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:09:55,2018-08-14 15:09:55,0.071s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:55,2018-08-14 15:09:55,0.102s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:55,2018-08-14 15:09:55,0.094s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:55,2018-08-14 15:09:56,0.103s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:56,2018-08-14 15:09:56,0.072s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:09:56,2018-08-14 15:09:58,2.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:58,2018-08-14 15:09:58,0.354s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:09:58,2018-08-14 15:09:59,0.576s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:09:59,0.119s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:09:59,0.148s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:09:59,0.053s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:09:59,0.158s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:09:59,0.214s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:09:59,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:09:59,0.102s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:09:59,2018-08-14 15:10:00,0.098s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:00,0.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:00,0.162s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:00,0.107s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:00,0.101s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:00,0.077s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:00,0.093s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:00,0.162s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:00,2018-08-14 15:10:01,0.451s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:01,2018-08-14 15:10:01,0.248s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:01,2018-08-14 15:10:01,0.268s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:10:01,2018-08-14 15:10:01,0.072s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:01,2018-08-14 15:10:02,0.180s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:02,2018-08-14 15:10:02,0.198s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:02,2018-08-14 15:10:02,0.154s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:02,2018-08-14 15:10:02,0.325s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:02,2018-08-14 15:10:03,0.374s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:03,2018-08-14 15:10:03,0.144s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:03,2018-08-14 15:10:03,0.185s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:03,2018-08-14 15:10:03,0.170s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:03,2018-08-14 15:10:04,0.556s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:04,2018-08-14 15:10:04,0.753s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:10:04,2018-08-14 15:10:05,0.061s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:05,2018-08-14 15:10:05,0.185s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:05,2018-08-14 15:10:05,0.269s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:05,2018-08-14 15:10:05,0.192s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:05,2018-08-14 15:10:06,0.610s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:06,2018-08-14 15:10:06,0.403s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:06,2018-08-14 15:10:07,0.525s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:07,2018-08-14 15:10:07,0.196s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:07,2018-08-14 15:10:07,0.196s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:07,2018-08-14 15:10:07,0.171s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:07,2018-08-14 15:10:08,0.447s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:08,2018-08-14 15:10:08,0.383s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:08,2018-08-14 15:10:08,0.134s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:10:08,2018-08-14 15:10:09,0.627s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:10:09,2018-08-14 15:10:09,0.041s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:09,2018-08-14 15:10:09,0.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:09,2018-08-14 15:10:09,0.118s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:09,2018-08-14 15:10:09,0.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:09,2018-08-14 15:10:09,0.099s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:09,2018-08-14 15:10:10,0.171s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:10,0.122s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:10,0.171s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:10,0.088s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:10,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:10,0.096s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:10,0.095s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:10,0.120s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:10,2018-08-14 15:10:11,0.196s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:11,2018-08-14 15:10:11,0.125s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:11,2018-08-14 15:10:11,0.124s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:11,2018-08-14 15:10:11,0.105s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:11,2018-08-14 15:10:11,0.096s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:11,2018-08-14 15:10:11,0.100s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:11,2018-08-14 15:10:11,0.147s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:10:11,2018-08-14 15:10:14,2.712s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:14,2018-08-14 15:10:15,1.103s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:10:15,2018-08-14 15:10:16,1.184s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:16,2018-08-14 15:10:16,0.225s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:10:16,2018-08-14 15:10:18,2.005s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:18,2018-08-14 15:10:19,0.219s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:19,2018-08-14 15:10:19,0.127s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:19,2018-08-14 15:10:19,0.153s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:19,2018-08-14 15:10:19,0.155s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:19,2018-08-14 15:10:19,0.164s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:10:19,2018-08-14 15:10:21,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:21,2018-08-14 15:10:21,0.100s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:21,2018-08-14 15:10:22,0.539s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:22,2018-08-14 15:10:22,0.145s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:22,2018-08-14 15:10:22,0.284s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:22,2018-08-14 15:10:22,0.058s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:22,2018-08-14 15:10:22,0.047s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:22,2018-08-14 15:10:23,0.045s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:23,2018-08-14 15:10:23,0.033s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:23,2018-08-14 15:10:23,0.033s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:23,2018-08-14 15:10:23,0.044s,PASSED
+verifyElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:23,2018-08-14 15:10:23,0.026s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:23,2018-08-14 15:10:23,0.125s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:10:23,2018-08-14 15:10:23,0.099s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_017,Chrome 68.0.3440.106,Check error message when any dropdown fields are save empty,2018-08-14 15:10:23,2018-08-14 15:11:07,44.416s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:10:23,2018-08-14 15:10:32,8.858s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:32,2018-08-14 15:10:33,1.179s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:10:33,2018-08-14 15:10:34,1.156s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:34,2018-08-14 15:10:34,0.223s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:34,2018-08-14 15:10:35,0.426s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:35,2018-08-14 15:10:35,0.047s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:35,2018-08-14 15:10:39,3.655s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:39,2018-08-14 15:10:39,0.192s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:39,2018-08-14 15:10:39,0.091s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:39,2018-08-14 15:10:39,0.023s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:39,2018-08-14 15:10:43,3.625s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:43,2018-08-14 15:10:43,0.204s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:43,2018-08-14 15:10:43,0.110s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:43,2018-08-14 15:10:43,0.018s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:43,2018-08-14 15:10:46,3.642s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:10:46,2018-08-14 15:10:47,0.060s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:47,2018-08-14 15:10:47,0.138s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:47,2018-08-14 15:10:47,0.163s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:47,2018-08-14 15:10:47,0.198s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:47,2018-08-14 15:10:47,0.135s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:47,2018-08-14 15:10:47,0.024s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:47,2018-08-14 15:10:51,3.621s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:51,2018-08-14 15:10:51,0.303s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:51,2018-08-14 15:10:52,0.372s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:52,2018-08-14 15:10:52,0.129s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:52,2018-08-14 15:10:52,0.170s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:52,2018-08-14 15:10:52,0.173s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:52,2018-08-14 15:10:52,0.121s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:52,2018-08-14 15:10:52,0.025s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:52,2018-08-14 15:10:56,3.654s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:56,2018-08-14 15:10:56,0.495s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:10:56,2018-08-14 15:10:57,0.619s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:10:57,2018-08-14 15:10:57,0.086s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:57,2018-08-14 15:10:57,0.023s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:10:57,2018-08-14 15:11:01,3.664s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:11:01,2018-08-14 15:11:01,0.129s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:01,2018-08-14 15:11:01,0.214s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:01,2018-08-14 15:11:01,0.184s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:01,2018-08-14 15:11:01,0.208s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:01,2018-08-14 15:11:02,0.106s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:11:02,2018-08-14 15:11:02,0.050s,PASSED
+waitForElementNotPresent,Chrome 68.0.3440.106,,2018-08-14 15:11:02,2018-08-14 15:11:05,3.645s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:11:05,2018-08-14 15:11:06,0.380s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:11:06,2018-08-14 15:11:06,0.433s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:06,2018-08-14 15:11:06,0.171s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:11:06,2018-08-14 15:11:07,0.497s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:07,2018-08-14 15:11:07,0.083s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:07,2018-08-14 15:11:07,0.140s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:07,2018-08-14 15:11:07,0.152s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:07,2018-08-14 15:11:07,0.108s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:11:07,2018-08-14 15:11:07,0.038s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:11:07,2018-08-14 15:11:07,0.090s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_018,Chrome 68.0.3440.106,Check multiple dropdown value selection  in Apply Filters screen,2018-08-14 15:11:07,2018-08-14 15:11:53,45.960s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:11:07,2018-08-14 15:11:15,8.014s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:15,2018-08-14 15:11:17,1.062s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:11:17,2018-08-14 15:11:18,1.317s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:18,2018-08-14 15:11:18,0.510s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:11:18,2018-08-14 15:11:19,0.948s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:11:19,2018-08-14 15:11:20,0.705s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:11:20,2018-08-14 15:11:20,0.071s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:11:20,2018-08-14 15:11:20,0.059s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:20,2018-08-14 15:11:20,0.088s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:20,2018-08-14 15:11:20,0.070s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:20,2018-08-14 15:11:20,0.122s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:20,2018-08-14 15:11:20,0.086s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:11:20,2018-08-14 15:11:22,2.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:22,2018-08-14 15:11:23,0.403s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:11:23,2018-08-14 15:11:25,2.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:25,2018-08-14 15:11:25,0.120s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:11:25,2018-08-14 15:11:27,2.005s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:27,2018-08-14 15:11:27,0.160s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:27,2018-08-14 15:11:27,0.134s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:27,2018-08-14 15:11:27,0.130s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:27,2018-08-14 15:11:28,0.098s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.095s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.096s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.072s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.113s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.126s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.105s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.131s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:28,0.052s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:28,2018-08-14 15:11:29,0.243s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:29,0.153s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:29,0.100s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:29,0.121s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:29,0.115s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:29,0.119s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:29,0.174s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:29,0.124s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:29,2018-08-14 15:11:30,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:30,0.085s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:30,0.098s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:30,0.099s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:30,0.101s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:30,0.184s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:30,0.156s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:30,0.127s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:30,2018-08-14 15:11:31,0.084s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:31,2018-08-14 15:11:31,0.121s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:31,2018-08-14 15:11:31,0.150s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:31,2018-08-14 15:11:31,0.151s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:31,2018-08-14 15:11:31,0.150s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:31,2018-08-14 15:11:31,0.214s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:31,2018-08-14 15:11:31,0.131s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:31,2018-08-14 15:11:32,0.125s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:32,2018-08-14 15:11:32,0.177s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:32,2018-08-14 15:11:32,0.146s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:32,2018-08-14 15:11:32,0.164s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:32,2018-08-14 15:11:32,0.290s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:32,2018-08-14 15:11:33,0.325s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:33,2018-08-14 15:11:33,0.238s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:33,2018-08-14 15:11:33,0.184s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:33,2018-08-14 15:11:33,0.113s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:33,2018-08-14 15:11:33,0.146s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:33,2018-08-14 15:11:33,0.108s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:33,2018-08-14 15:11:34,0.095s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:34,2018-08-14 15:11:34,0.183s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:34,2018-08-14 15:11:34,0.105s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:34,2018-08-14 15:11:34,0.120s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:34,2018-08-14 15:11:34,0.131s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:34,2018-08-14 15:11:34,0.119s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:34,2018-08-14 15:11:34,0.168s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:11:34,2018-08-14 15:11:35,0.620s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:35,2018-08-14 15:11:36,1.052s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:11:36,2018-08-14 15:11:37,1.091s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:37,2018-08-14 15:11:37,0.143s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:37,2018-08-14 15:11:37,0.176s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:11:37,2018-08-14 15:11:38,0.064s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:11:38,2018-08-14 15:11:38,0.130s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:11:38,2018-08-14 15:11:53,15.499s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:11:53,2018-08-14 15:11:53,0.089s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_019,Chrome 68.0.3440.106,Check Sequence rearrange for Restaurant in Home screen,2018-08-14 15:11:53,2018-08-14 15:12:39,46.057s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:11:53,2018-08-14 15:12:02,8.373s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:12:02,2018-08-14 15:12:04,2.270s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:12:04,2018-08-14 15:12:19,14.516s,PASSED
+"Statement - res_name9 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/res_cell_9), ""data-catname"")",Chrome 68.0.3440.106,,2018-08-14 15:12:19,2018-08-14 15:12:19,0.136s,PASSED
+"Statement - res_name4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/res_cell_4), ""data-catname"")",Chrome 68.0.3440.106,,2018-08-14 15:12:19,2018-08-14 15:12:19,0.032s,PASSED
+dragAndDropToObject,Chrome 68.0.3440.106,,2018-08-14 15:12:19,2018-08-14 15:12:19,0.724s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:12:19,2018-08-14 15:12:37,17.062s,PASSED
+dragAndDropToObject,Chrome 68.0.3440.106,,2018-08-14 15:12:37,2018-08-14 15:12:37,0.728s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:12:37,2018-08-14 15:12:37,0.028s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:12:37,2018-08-14 15:12:38,0.924s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:12:38,2018-08-14 15:12:39,1.074s,PASSED
+"Statement - res_name1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/res_cell_1), ""data-catname"")",Chrome 68.0.3440.106,,2018-08-14 15:12:39,2018-08-14 15:12:39,0.027s,PASSED
+"Statement - res_name2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/res_cell_2), ""data-catname"")",Chrome 68.0.3440.106,,2018-08-14 15:12:39,2018-08-14 15:12:39,0.026s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:12:39,2018-08-14 15:12:39,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:12:39,2018-08-14 15:12:39,0.002s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_020,Chrome 68.0.3440.106,Check Validations on mandatory field,2018-08-14 15:12:39,2018-08-14 15:13:17,37.689s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:12:39,2018-08-14 15:12:49,9.115s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:12:49,2018-08-14 15:12:54,5.921s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:12:54,2018-08-14 15:13:15,20.536s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:15,2018-08-14 15:13:15,0.194s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:13:15,2018-08-14 15:13:16,1.004s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:16,2018-08-14 15:13:16,0.125s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:16,2018-08-14 15:13:17,0.433s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:13:17,2018-08-14 15:13:17,0.220s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_021,Chrome 68.0.3440.106,Check multiple Set Available Time for single restaurant,2018-08-14 15:13:17,2018-08-14 15:14:03,45.537s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:13:17,2018-08-14 15:13:25,7.651s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:25,2018-08-14 15:13:28,3.070s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:28,2018-08-14 15:13:29,1.178s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:29,2018-08-14 15:13:29,0.200s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:13:29,2018-08-14 15:13:30,0.946s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:13:30,2018-08-14 15:13:31,0.598s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:13:31,2018-08-14 15:13:31,0.063s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:31,2018-08-14 15:13:31,0.052s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:31,2018-08-14 15:13:31,0.086s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:31,2018-08-14 15:13:31,0.075s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:31,2018-08-14 15:13:31,0.110s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:31,2018-08-14 15:13:31,0.077s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:13:31,2018-08-14 15:13:33,2.005s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:33,2018-08-14 15:13:34,0.306s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:34,2018-08-14 15:13:34,0.576s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:34,2018-08-14 15:13:34,0.105s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:34,2018-08-14 15:13:34,0.126s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:34,2018-08-14 15:13:34,0.057s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:34,2018-08-14 15:13:35,0.176s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:35,2018-08-14 15:13:35,0.176s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:35,2018-08-14 15:13:35,0.111s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:35,2018-08-14 15:13:35,0.105s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:35,2018-08-14 15:13:35,0.098s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:35,2018-08-14 15:13:35,0.133s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:35,2018-08-14 15:13:35,0.160s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:35,2018-08-14 15:13:36,0.118s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:36,0.126s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:36,0.080s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:36,0.094s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:36,0.113s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:36,0.145s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:36,0.177s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:36,0.102s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:36,2018-08-14 15:13:37,0.132s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.077s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.089s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.147s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.085s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.116s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.094s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.091s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:37,0.115s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:37,2018-08-14 15:13:38,0.156s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.129s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.089s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.096s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.148s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.126s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.110s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:38,0.083s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:38,2018-08-14 15:13:39,0.106s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:39,2018-08-14 15:13:39,0.156s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:13:39,2018-08-14 15:13:40,1.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:40,2018-08-14 15:13:40,0.112s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:40,2018-08-14 15:13:40,0.587s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:40,2018-08-14 15:13:41,1.024s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:41,2018-08-14 15:13:44,2.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.230s,PASSED
+waitForElementHasAttribute,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.409s,PASSED
+"Statement - resName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/input_edit_display_name), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.052s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.001s,PASSED
+"Statement - startTime1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time_1), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.038s,PASSED
+"Statement - endTime1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time_1), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.036s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.001s,PASSED
+"Statement - startTime2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time_2), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.035s,PASSED
+"Statement - endTime2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time_2), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.043s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.001s,PASSED
+"Statement - startTime3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_start_time_3), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.031s,PASSED
+"Statement - endTime3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Pages/Restaurant Page/Edit Restaurant/edit_openinghour_end_time_3), ""value"")",Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.029s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.001s,PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:44,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:44,2018-08-14 15:13:45,0.097s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:13:45,2018-08-14 15:13:47,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:47,2018-08-14 15:13:47,0.143s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:47,2018-08-14 15:13:47,0.153s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:47,2018-08-14 15:13:47,0.063s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:13:47,2018-08-14 15:13:47,0.118s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:13:47,2018-08-14 15:14:02,15.443s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:14:02,2018-08-14 15:14:03,0.112s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_022,Chrome 68.0.3440.106,Check to upload Image in different format,2018-08-14 15:14:03,2018-08-14 15:14:38,35.864s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:14:03,2018-08-14 15:14:09,6.554s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:09,2018-08-14 15:14:12,2.687s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:12,2018-08-14 15:14:13,1.192s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:13,2018-08-14 15:14:13,0.231s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:14:13,2018-08-14 15:14:14,0.714s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:14:14,2018-08-14 15:14:15,0.737s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:14:15,2018-08-14 15:14:15,0.069s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:15,2018-08-14 15:14:15,0.098s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:15,2018-08-14 15:14:15,0.096s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:15,2018-08-14 15:14:15,0.082s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:15,2018-08-14 15:14:15,0.122s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:15,2018-08-14 15:14:15,0.074s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:14:15,2018-08-14 15:14:17,2.005s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:17,2018-08-14 15:14:18,0.241s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:18,2018-08-14 15:14:18,0.593s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:18,2018-08-14 15:14:18,0.107s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:18,2018-08-14 15:14:18,0.129s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:14:18,2018-08-14 15:14:19,1.006s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:19,2018-08-14 15:14:20,0.103s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:20,2018-08-14 15:14:20,0.617s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:20,2018-08-14 15:14:21,1.052s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:21,2018-08-14 15:14:22,1.069s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:22,2018-08-14 15:14:22,0.159s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:22,2018-08-14 15:14:23,0.192s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:23,2018-08-14 15:14:23,0.062s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:23,2018-08-14 15:14:23,0.141s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:23,2018-08-14 15:14:38,15.475s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:14:38,2018-08-14 15:14:38,0.107s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_023,Chrome 68.0.3440.106,"Check to Upload heavy size images and verify in ipad +
+Check to Update Restaurant image",2018-08-14 15:14:38,2018-08-14 15:15:38,59.501s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:14:39,2018-08-14 15:14:47,8.057s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:47,2018-08-14 15:14:48,1.082s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:48,2018-08-14 15:14:49,1.247s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:49,2018-08-14 15:14:49,0.235s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:14:49,2018-08-14 15:14:50,0.712s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:14:50,2018-08-14 15:14:51,0.636s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:14:51,2018-08-14 15:14:51,0.080s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:14:51,2018-08-14 15:14:51,0.079s,PASSED
+waitForElementClickable,Chrome 68.0.3440.106,,2018-08-14 15:14:51,2018-08-14 15:14:51,0.059s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:51,2018-08-14 15:14:51,0.132s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:51,2018-08-14 15:14:53,2.578s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:53,2018-08-14 15:14:54,0.140s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:54,2018-08-14 15:14:54,0.088s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:14:54,2018-08-14 15:14:56,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:14:56,2018-08-14 15:15:03,7.303s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:15:03,2018-08-14 15:15:06,2.835s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:15:06,2018-08-14 15:15:06,0.111s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:15:06,2018-08-14 15:15:06,0.129s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:15:06,2018-08-14 15:15:07,1.002s,PASSED
+waitForElementClickable,Chrome 68.0.3440.106,,2018-08-14 15:15:07,2018-08-14 15:15:07,0.034s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:15:07,2018-08-14 15:15:08,0.583s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:15:08,2018-08-14 15:15:38,30.081s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:15:38,2018-08-14 15:15:38,0.186s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_024,Chrome 68.0.3440.106,Check to Update Restaurant image,2018-08-14 15:15:38,2018-08-14 15:16:16,38.405s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:15:38,2018-08-14 15:15:53,14.940s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:15:53,2018-08-14 15:15:54,1.279s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:15:54,2018-08-14 15:15:55,1.187s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:15:55,2018-08-14 15:15:56,0.426s,PASSED
+waitForElementHasAttribute,Chrome 68.0.3440.106,,2018-08-14 15:15:56,2018-08-14 15:15:56,0.450s,PASSED
+uploadFile,Chrome 68.0.3440.106,,2018-08-14 15:15:56,2018-08-14 15:15:56,0.118s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:15:56,2018-08-14 15:16:07,10.315s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:07,2018-08-14 15:16:07,0.112s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:07,2018-08-14 15:16:07,0.079s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:07,2018-08-14 15:16:07,0.139s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:07,2018-08-14 15:16:07,0.095s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:16:07,2018-08-14 15:16:09,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:09,2018-08-14 15:16:10,0.315s,PASSED
+waitForElementClickable,Chrome 68.0.3440.106,,2018-08-14 15:16:10,2018-08-14 15:16:10,0.069s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:10,2018-08-14 15:16:10,0.197s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:16:10,2018-08-14 15:16:12,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:12,2018-08-14 15:16:12,0.115s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:16:12,2018-08-14 15:16:13,1.002s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:13,2018-08-14 15:16:13,0.027s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:13,2018-08-14 15:16:14,0.940s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:14,2018-08-14 15:16:15,1.097s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:15,2018-08-14 15:16:15,0.154s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:15,2018-08-14 15:16:15,0.191s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:15,2018-08-14 15:16:15,0.105s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:15,2018-08-14 15:16:16,0.140s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:16,2018-08-14 15:16:16,0.633s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:16:16,2018-08-14 15:16:16,0.123s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_025,Chrome 68.0.3440.106,Check search functionality based on Restaurant name,2018-08-14 15:16:16,2018-08-14 15:16:28,11.510s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:16:16,2018-08-14 15:16:25,8.655s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:25,2018-08-14 15:16:26,1.061s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:26,2018-08-14 15:16:27,1.265s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:27,2018-08-14 15:16:28,0.119s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 15:16:28,2018-08-14 15:16:28,0.150s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:28,2018-08-14 15:16:28,0.034s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:16:28,2018-08-14 15:16:28,0.123s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_026,Chrome 68.0.3440.106,Check Cancel button functionality,2018-08-14 15:16:28,2018-08-14 15:16:40,12.318s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:16:28,2018-08-14 15:16:36,8.458s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:36,2018-08-14 15:16:37,1.032s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:37,2018-08-14 15:16:39,1.194s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:39,2018-08-14 15:16:39,0.237s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:39,2018-08-14 15:16:39,0.258s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:39,2018-08-14 15:16:39,0.120s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:39,2018-08-14 15:16:39,0.168s,PASSED
+waitForElementNotVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:39,2018-08-14 15:16:40,0.596s,PASSED
+verifyElementNotVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:40,2018-08-14 15:16:40,0.029s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:16:40,2018-08-14 15:16:40,0.135s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_027,Chrome 68.0.3440.106,Check the availability of publish button on the Restaurant,2018-08-14 15:16:40,2018-08-14 15:16:52,11.685s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:16:40,2018-08-14 15:16:49,8.430s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:49,2018-08-14 15:16:50,1.033s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:50,2018-08-14 15:16:51,1.200s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.046s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.038s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.146s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.057s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.070s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.051s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.051s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.030s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.044s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:51,0.026s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:51,2018-08-14 15:16:52,0.037s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:16:52,0.025s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:16:52,0.035s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:16:52,0.024s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:16:52,0.035s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:16:52,0.023s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:16:52,0.036s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:16:52,0.155s,PASSED
+,,,,,,
+Test Cases/Tests/Restaurant Tests/TC_Restaurant_028,Chrome 68.0.3440.106,"Check the action when user selects ""Later"" in when to push option",2018-08-14 15:16:52,2018-08-14 15:17:04,12.271s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-08-14 15:16:52,2018-08-14 15:17:00,8.055s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:17:00,2018-08-14 15:17:01,1.096s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:17:01,2018-08-14 15:17:02,1.235s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:17:02,2018-08-14 15:17:03,0.292s,PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:17:03,2018-08-14 15:17:03,0.057s,PASSED
+delay,Chrome 68.0.3440.106,,2018-08-14 15:17:03,2018-08-14 15:17:04,1.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 15:17:04,2018-08-14 15:17:04,0.152s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:17:04,2018-08-14 15:17:04,0.038s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:17:04,2018-08-14 15:17:04,0.053s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 15:17:04,2018-08-14 15:17:04,0.027s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,,2018-08-14 15:17:04,2018-08-14 15:17:04,0.040s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-14 15:17:04,2018-08-14 15:17:04,0.119s,PASSED

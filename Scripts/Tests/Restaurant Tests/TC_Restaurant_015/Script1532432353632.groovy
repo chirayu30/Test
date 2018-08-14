@@ -328,7 +328,7 @@ WebUI.verifyEqual(mealTypeStartTime, '9:00 AM', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyEqual(mealTypeEndTime, '11:00 AM', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_dismiss_modal_step2'))
+WebUI.click(findTestObject('Pages/Restaurant Page/Edit Restaurant/btn_step2_dismiss_modal'))
 
 WebUI.delay(2)
 

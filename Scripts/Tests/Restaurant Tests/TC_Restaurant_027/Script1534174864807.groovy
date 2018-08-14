@@ -31,25 +31,33 @@ WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/btn_publish'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/btn_publish'))
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/popup_push_update'), 0)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/popup_push_update'), 10)
 
 WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/popup_push_update'))
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_now'), 0)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_now'), 10)
 
 WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Push Update/label_now'))
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_later'), 0)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_later'), 10)
 
 WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Push Update/label_later'))
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_in_all_rooms'), 0)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_in_all_rooms'), 10)
 
 WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Push Update/label_in_all_rooms'))
 
-WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_custom'), 0)
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/label_custom'), 10)
 
 WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Push Update/label_custom'))
+
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/btn_cancel'), 10)
+
+WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Push Update/btn_cancel'))
+
+WebUI.verifyElementPresent(findTestObject('Pages/Restaurant Page/Push Update/btn_push'), 10)
+
+WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Push Update/btn_push'))
 
 WebUI.closeBrowser()
 

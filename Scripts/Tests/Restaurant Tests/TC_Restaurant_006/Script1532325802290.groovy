@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest'))
+WebUI.click(findTestObject('Pages/Restaurant Page/menu_3_dot_rest2'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/btn_delete_res_3_dot_menu'))
 
