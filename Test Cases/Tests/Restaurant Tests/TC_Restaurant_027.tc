@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the availability of publish button on the Restaurant</description>
+   <name>TC_Restaurant_027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86f18515-4641-4dd3-88c1-abf107bd375d</testCaseGuid>
+</TestCaseEntity>
