@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the action when user select custom in where to send push button</description>
+   <name>TC_Restaurant_030</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd3df6bb-1031-494e-b9c3-7727cd2b2de5</testCaseGuid>
+</TestCaseEntity>

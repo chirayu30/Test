@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the availability of &quot;SPA Management&quot; options in the menu listing</description>
+   <name>TC_Spa_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6659f48-47d0-4071-9ada-85f8cc0bb446</testCaseGuid>
+</TestCaseEntity>

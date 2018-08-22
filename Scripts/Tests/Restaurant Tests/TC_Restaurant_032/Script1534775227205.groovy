@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import groovy.time.TimeCategory as TimeCategory
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -31,37 +30,19 @@ WebUI.click(findTestObject('Pages/Restaurant Page/btn_publish'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Push Update/title_peform_push_update'), 10)
 
-WebUI.delay(1)
+WebUI.setText(findTestObject('Pages/Restaurant Page/Push Update/textarea_specify_reason'), 'Test~!@#$%^&*()_+{}|\\][:"\';<>?/.,')
 
-WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/checkbox_later'))
+WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/label_custom'))
 
-def today = new Date()
+WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/dropdown_By_default'))
 
-def yesterday = today - 1
+WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/li_room'))
 
-def today1 = today.format('yyyy-MM-dd')
+WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/dropdown_Which_default'))
 
-def yesterday1 = yesterday.format('yyyy-MM-dd')
+WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/li_equal_to'))
 
-println(today1)
+WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/input_select_options_default'))
 
-println(yesterday1)
-
-WebUI.setText(findTestObject('Pages/Restaurant Page/Push Update/input_push_date'), yesterday1)
-
-WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/input_push_time'))
-
-WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_hours'))
-
-WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/hour_09'))
-
-WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/pick_minutes'))
-
-WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/minute_00'))
-
-WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/btn_reschedule'))
-
-WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Push Update/msg_error_schedule_date'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Pages/Restaurant Page/Push Update/li_2nd_opt_select_options'))
 

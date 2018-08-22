@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check special characters allowed in Push Update comment field + Check successful push update using custom options</description>
+   <name>TC_Restaurant_032</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba2a6b7e-4520-429d-b796-f9aad1a9b075</testCaseGuid>
+</TestCaseEntity>
