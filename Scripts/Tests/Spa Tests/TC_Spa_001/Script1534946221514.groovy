@@ -27,5 +27,7 @@ WebUI.verifyElementVisible(findTestObject('Pages/Dashboard/a_SPA Management'))
 
 WebUI.click(findTestObject('Pages/Dashboard/a_SPA Management'))
 
+WebUI.verifyElementVisible(findTestObject('Pages/Spa Page/Heading_Spa _Mgmt'))
+
 WebUI.closeBrowser()
 

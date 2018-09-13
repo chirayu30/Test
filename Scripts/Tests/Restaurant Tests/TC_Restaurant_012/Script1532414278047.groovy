@@ -69,6 +69,8 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_dele
 
 WebUI.waitForElementPresent(findTestObject('Pages/Restaurant Page/Delete Restaurant/msg_delete_restaurant_success'), 15)
 
+WebUI.waitForElementClickable(findTestObject('Pages/Dashboard/a_Restaurants'), 20)
+
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20, FailureHandling.STOP_ON_FAILURE)

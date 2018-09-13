@@ -35,6 +35,8 @@ WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 5)
 
+WebUI.waitForElementClickable(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 20)
+
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'))
 
 WebUI.click(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'))

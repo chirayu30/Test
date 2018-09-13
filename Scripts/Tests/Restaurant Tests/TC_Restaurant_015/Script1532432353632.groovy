@@ -211,6 +211,8 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Apply Filters/btn_save'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/msg_add_restaurant_success'), 30)
 
+WebUI.waitForElementClickable(findTestObject('Pages/Dashboard/a_Restaurants'), 20)
+
 WebUI.click(findTestObject('Pages/Dashboard/a_Restaurants'))
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/res_cell_first'), 20)
