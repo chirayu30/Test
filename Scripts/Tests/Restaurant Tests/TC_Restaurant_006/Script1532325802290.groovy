@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/btn_delete_r
 
 WebUI.verifyElementVisible(findTestObject('Pages/Restaurant Page/Delete Restaurant/delete_res_confirmation_dialog'))
 
+WebUI.waitForElementClickable(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_delete_res'), 20)
+
 WebUI.click(findTestObject('Pages/Restaurant Page/Delete Restaurant/Btn_yes_delete_res'))
 
 WebUI.delay(2)

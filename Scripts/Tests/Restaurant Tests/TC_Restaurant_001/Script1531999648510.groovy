@@ -31,7 +31,11 @@ WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/input_display
 
 WebUI.setText(findTestObject('Pages/Restaurant Page/Add Restaurant/textarea_description'), 'This is a test restaurant being added by automation script.')
 
-WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), '/Users/apple/git/pbsl_digivalet_cms_tests/Images/Restaurant Image.jpg')
+String userDir = System.getProperty("user.dir")
+
+String imgPath = userDir + "/Images/Restaurant Image.jpg"
+
+WebUI.uploadFile(findTestObject('Pages/Restaurant Page/Add Restaurant/btn_upload_image'), imgPath)
 
 WebUI.waitForElementVisible(findTestObject('Pages/Restaurant Page/Crop Image/btn_zoom_in'), 5, FailureHandling.STOP_ON_FAILURE)
 
